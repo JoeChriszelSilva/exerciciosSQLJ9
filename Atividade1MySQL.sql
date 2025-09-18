@@ -22,7 +22,7 @@ VALUES ("Julia Silva","1999-06-28", "Dev Junior", 2500),
 SELECT * FROM tb_colaboradores WHERE salario > 2000;
 SELECT * FROM tb_colaboradores WHERE salario < 2000;
 
-UPDATE tb_colaboradores SET salario = 2500, cargo = 'dev junior' WHERE id =  10;
+UPDATE tb_colaboradores SET salario = 2500, cargo = 'dev junior' WHERE id =  3;
 
-SELECT * FROM tb_colaboradores WHERE id = 10;
+SELECT * FROM tb_colaboradores WHERE id = 3;
 

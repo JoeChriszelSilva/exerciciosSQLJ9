@@ -25,6 +25,6 @@ VALUES ('Smartphone Galaxy', 'Samsung', 'Tela infinita de 6.4 polegadas e câmer
 SELECT * FROM tb_produtos WHERE preco > 500;
 SELECT * FROM tb_produtos WHERE preco < 500;
 
-UPDATE tb_produtos SET preco = 3499.99 WHERE id =  10;
+UPDATE tb_produtos SET preco = 3499.99 WHERE id =  2;
 
-SELECT * FROM tb_produtos WHERE id = 10;
+SELECT * FROM tb_produtos WHERE id = 2;
